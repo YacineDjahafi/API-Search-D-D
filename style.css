@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'MedievalSharp', cursive;
+    /* background-color: rgb(37, 20, 20); */
+}
+header{
+    background: no-repeat url("img/fond1.jpg");
+    background-size: cover;
+    height: 100vh;
+
+    -webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0)));
+      mask-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(0, 0, 0));
+}
+img{
+    width: 30px;
+}
+input{
+    width: 300px;
+    height: 30px;
+}
+img{
+    width: 300px;
+}
+.flex{
+    display: flexbox;
+}
+#show{
+    font-size: 30px;
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    border: 10px rgba(82, 3, 3, 0.699) solid;
+    border-radius: 20px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.699);
+    width: 800px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.185);
+    /* background-image: url("img/parchemin1.jpg"); */
+    padding: 20px;
+    position: relative;
+    top: 150px;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    margin: 0;
+    padding-top: 50px;
+    color: rgb(29, 14, 14);
+    text-shadow: 3px 3px 3px rgb(240, 225, 12);
+    font-family: 'MedievalSharp', cursive;
+}
+#form{
+    padding: 30px;
+    text-align: center;
+    position: relative;
+    top: 250px;
+}
+label{
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    text-shadow: 3px 3px 3px rgb(194, 0, 0);
+}
+input{
+    margin: auto;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.315);
+    color: rgb(0, 0, 0);
+    font-weight: 900;
+    font-size: 15px;
+
+}
+#back-container{
+    background-image:url("img/606641.jpg");
+    background-size: cover;
+    border-top: 20px black solid;
+}
+#container{
+    background: url("img/parchemin1.png");
+    background-size: cover;
+    height: 800px;
+    width: 1200px;
+    margin: auto;
+    /* display: none; */
+}
+.transition{
+    opacity: 1 !important;
+    transition: opacity 1s ease-in-out !important;
+}
