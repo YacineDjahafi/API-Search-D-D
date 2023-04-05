@@ -10,7 +10,7 @@ let personnage2 = new Personnage("merlin","mage","baton","img/mage.png");
 let personnage3 = new Personnage("jaskier","barde","luth","img/barde.png");
 let personnage4 = new Personnage("nils","archet","arc","img/archet.png");
 let personnage5 = new Personnage("ekemon","barbare","hache à deux mains","img/barbare.png");
-let personnage6 = new Personnage("alderic","roublard","dagues","img/voleur.jpg");
+let personnage6 = new Personnage("alderic","roublard","dagues","img/voleur.png");
 
 
 const perso = [personnage1, personnage2, personnage3, personnage4, personnage5, personnage6];

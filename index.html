@@ -13,14 +13,72 @@
 </head>
 <body>
     <header>
+        <!-- IDEE D'AMELIORATION
+        Soit 
+        1-Creer une base de donnée pour permettre aux gens de créer des personnages
+        2-Créer des fiches personnages de bases et ils pourront en choisir
+        3-Permettre de choisir grace à des menus déroulés pour créer son personnage et le stocker en locale grâce à des cookies
+        Créer une liste de personnages que les gens peuvent déjà rechercher
+        Pour la liste, faire en JS que lorsqu'on clique sur un personnage, ferme ceux qui sont déjà ouvert-->
         <h1>Bienvenu dans le donjon aventurier</h1>
-    
         <div id="form">
             <form action="">
                 <label autocomplete="off" for="searchBar">Ecris ici ce que tu recherches</label><br>
                 <input id="searchBar" type="text">
                 <!-- <button id="bouton"><img src="img/loupe.png" alt=""></button> -->
             </form>
+        </div>
+        <div id="character-list">
+            <ul>
+                <li>
+                    <details>
+                        <summary>Arthur</summary><br>
+                        <p>Classe: chevalier</p><br>
+                        <p>Arme: épee</p>
+                        <img draggable="false" class="detail" src="img/chevalier.png" alt="">
+                    </details>
+                </li>
+                <li>
+                    <details>
+                        <summary>Merlin</summary><br>
+                        <p>Classe: mage</p><br>
+                        <p>Arme: baton</p>
+                        <img draggable="false" class="detail" src="img/mage.png" alt="">
+                    </details>
+                </li>
+                <li>
+                    <details>
+                        <summary>Jaskier</summary><br>
+                        <p>Classe: barde</p><br>
+                        <p>Arme: luth</p>
+                        <img draggable="false" class="detail" src="img/barde.png" alt="">
+                    </details>
+                </li>
+                <li>
+                    <details>
+                        <summary>Nils</summary><br>
+                        <p>Classe: archet</p><br>
+                        <p>Arme: arc</p>
+                        <img draggable="false" class="detail" src="img/archet.png" alt="">
+                    </details>
+                </li>
+                <li>
+                    <details>
+                        <summary>Ekemon</summary><br>
+                        <p>Classe: barbare</p><br>
+                        <p>Arme: hache à deux mains</p>
+                        <img draggable="false" class="detail" src="img/barbare.png" alt="">
+                    </details>
+                </li>
+                <li>
+                    <details>
+                        <summary>Alderic</summary><br>
+                        <p>Classe: roublard</p><br>
+                        <p>Arme: dagues</p>
+                        <img draggable="false" class="detail" src="img/voleur.png" alt="">
+                    </details>
+                </li>
+            </ul>
         </div>
     </header>
     <!-- Ajouter création de personnage -->
